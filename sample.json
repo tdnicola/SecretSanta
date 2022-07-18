@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Tony",
+        "phone": 111,
+        "previousMatches": [
+            "Tony",
+            "Monika",
+            "Deke",
+            "Patrick",
+            "Haley"
+        ]
+    },
+    {
+        "name": "Zach",
+        "phone": 222,
+        "previousMatches": [
+            "Zach",
+            "Deke",
+            "Tony"
+        ]
+    },
+    {
+        "name": "Haley",
+        "phone": 333,
+        "previousMatches": [
+            "Haley",
+            "Marie",
+            "Steve",
+            "Patrick",
+            "Tony"
+        ]
+    },
+    {
+        "name": "Patrick",
+        "phone": 444,
+        "previousMatches": [
+            "Patrick",
+            "Tony",
+            "Haley",
+            "Dystiny",
+            "Marie"
+        ]
+    },
+    {
+        "name": "Marie",
+        "phone": 555,
+        "previousMatches": [
+            "Marie",
+            "Monika",
+            "Haley",
+            "Steve",
+            "Patrick"
+        ]
+    },
+    {
+        "name": "Deke",
+        "phone": 666,
+        "previousMatches": [
+            "Deke",
+            "Steve",
+            "Marie",
+            "Tony",
+            "Monika"
+        ]
+    },
+    {
+        "name": "Monika",
+        "phone": 777,
+        "previousMatches": [
+            "Monika",
+            "Marie",
+            "Dystiny",
+            "Haley",
+            "Deke"
+        ]
+    },
+    {
+        "name": "Steve",
+        "phone": 888,
+        "previousMatches": [
+            "Steve",
+            "Monika",
+            "Patrick",
+            "Zach",
+            "Dystiny"
+        ]
+    },
+    {
+        "name": "Dystiny",
+        "phone": 999,
+        "previousMatches": [
+            "Dystiny",
+            "Patrick",
+            "Zach",
+            "Steve"
+        ]
+    }
+]

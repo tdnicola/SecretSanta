@@ -1,9 +1,21 @@
-Work in progress for texting friends secret santa recipients. No one will have to help hand out names. Great for long distance.
+Work in progress for texting friends secret santa recipients. No one will have to help hand out names (other than creator). Great for long distance.
 
-var whiteChristmas is the names of the people in the game.
+Reworked it from Javascript, which required a Twilio account.
 
-var phoneArray is the phone numbers to text.
+Python script that uses takes JSON file to give random secret santa. We've been doing it for some years so I wanted to also create an array of previously selected people so you do not get the same person twice in a row.
 
-Requires a twillio account. Fill in the accountSid and AuthToken, change the from: number.
+```
+{
+        "name": "Tony",
+        "phone": 111,
+        "previousMatches": [
+            "Tony",
+            "Monika",
+            "Deke",
+            "Patrick",
+            "Haley"
+        ]
+    },
+```
 
-```run node send-sms.js after updates and send texts.``` 
+Could create more automation in sending emails but texts are just great. Running main.py will spit out the results and then used with a [google voice extension](https://github.com/brismuth/google-voice-bulk-texter).
