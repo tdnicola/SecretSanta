@@ -1,98 +1,72 @@
 [
     {
         "name": "Tony",
-        "phone": 111,
+        "phone": 1111111111,
         "previousMatches": [
-            "Tony",
-            "Monika",
-            "Deke",
-            "Patrick",
-            "Haley"
+            {
+                "name": "Zach",
+                "year": 2023
+            },
+            {
+                "name": "Patrick",
+                "year": 2024
+            }
         ]
     },
     {
         "name": "Zach",
-        "phone": 222,
+        "phone": 2222222222,
         "previousMatches": [
-            "Zach",
-            "Deke",
-            "Tony"
-        ]
-    },
-    {
-        "name": "Haley",
-        "phone": 333,
-        "previousMatches": [
-            "Haley",
-            "Marie",
-            "Steve",
-            "Patrick",
-            "Tony"
+            {
+                "name": "Patrick",
+                "year": 2023
+            },
+            {
+                "name": "Steve",
+                "year": 2024
+            }
         ]
     },
     {
         "name": "Patrick",
-        "phone": 444,
+        "phone": 3333333333,
         "previousMatches": [
-            "Patrick",
-            "Tony",
-            "Haley",
-            "Dystiny",
-            "Marie"
-        ]
-    },
-    {
-        "name": "Marie",
-        "phone": 555,
-        "previousMatches": [
-            "Marie",
-            "Monika",
-            "Haley",
-            "Steve",
-            "Patrick"
+            {
+                "name": "Tony",
+                "year": 2023
+            },
+            {
+                "name": "Deke",
+                "year": 2024
+            }
         ]
     },
     {
         "name": "Deke",
-        "phone": 666,
+        "phone": 4444444444,
         "previousMatches": [
-            "Deke",
-            "Steve",
-            "Marie",
-            "Tony",
-            "Monika"
-        ]
-    },
-    {
-        "name": "Monika",
-        "phone": 777,
-        "previousMatches": [
-            "Monika",
-            "Marie",
-            "Dystiny",
-            "Haley",
-            "Deke"
+            {
+                "name": "Steve",
+                "year": 2023
+            },
+            {
+                "name": "Zach",
+                "year": 2024
+            }
         ]
     },
     {
         "name": "Steve",
-        "phone": 888,
+        "phone": 5555555555,
         "previousMatches": [
-            "Steve",
-            "Monika",
-            "Patrick",
-            "Zach",
-            "Dystiny"
-        ]
-    },
-    {
-        "name": "Dystiny",
-        "phone": 999,
-        "previousMatches": [
-            "Dystiny",
-            "Patrick",
-            "Zach",
-            "Steve"
+            {
+                "name": "Deke",
+                "year": 2023
+            },
+            {
+                "name": "Tony",
+                "year": 2024
+            }
         ]
     }
 ]
